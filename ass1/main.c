@@ -78,8 +78,8 @@ int main() {
                     break;
             }
             default: {
-				printf("\nNhap ki tu de thuc hien chuong trinh");
-				break;
+                    printf("\nNhap ki tu de thuc hien chuong trinh");
+                    break;
 			}
         }
     } while (choose != 'e');
