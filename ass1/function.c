@@ -55,7 +55,6 @@ int displayArray(int array[], int arraySize) {
 int addElement(int array[], int *arraySize, int number, int position) {
     for (int i = *arraySize; i > position; i--) {
         array[i] = array[i - 1];
-        printf("%d ", i);
     }
     array[position] = number;
     *arraySize = *arraySize + 1;
